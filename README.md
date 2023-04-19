@@ -1,4 +1,4 @@
-##### Are the results as expected? Why or why not?
+### Are the results as expected? Why or why not?
 
 `VGG (1 Block)`
 
@@ -42,13 +42,17 @@ The number of layers in both MLPs being 3, it's important to note that the depth
 | VGG 16                         | 55.6619885    | 6.14E-08    | 1           | 0.850000024 | 15763521   |
 | MLP18                          | 29.99000883   | 0.192937687 | 0.856249988 | 0.675000012 | 17832193   |
 
-<img title="" src="plots/1.png" alt="" data-align="left">
+<img title="" src="plots/1.png" alt="" data-align="left" width="339">
 
-![](plots/2.png)
+<img src="plots/2.png" title="" alt="" width="337">
+
+<img src="plots/4.png" title="" alt="" width="336">
+
+<img src="plots/5.png" title="" alt="" width="335">
 
 <hr>
 
-##### Does data augmentation help? Why or why not?
+### Does data augmentation help? Why or why not?
 
 Data augmentation is a method of creating additional training data from the existing datase by using various transformations including rotation, scaling, flipping, cropping, and other picture modificationst. 
 
@@ -62,7 +66,7 @@ For us, the argumented model is working worse than the original one. One reason 
 
 <hr>
 
-##### Does it matter how many epochs you fine tune the model? Why or why not?
+### Does it matter how many epochs you fine tune the model? Why or why not?
 
 The term "number of epochs" refers to how many times the complete  dataset was run through the model during training while fine-tuning a pre-trained model. 
 
@@ -78,7 +82,7 @@ Early stopping is a callback technique that can help prevent overfitting and sav
 
 <hr>
 
-##### Are there any particular images that the model is confused about? Why or why not?
+### Are there any particular images that the model is confused about? Why or why not?
 
 ![](plots/3.png)
 
