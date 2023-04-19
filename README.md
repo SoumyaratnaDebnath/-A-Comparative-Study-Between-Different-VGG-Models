@@ -84,6 +84,6 @@ Early stopping is a callback technique that can help prevent overfitting and sav
 
 ### Are there any particular images that the model is confused about? Why or why not?
 
-![](plots/3.png)
+<img src="plots/3.png" title="" alt="" width="311">
 
 This was the image for which each model got confused.
